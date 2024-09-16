@@ -1,0 +1,40 @@
+name: pizza_hub
+description: "Pizza Hut"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^4.0.3
+  flutter_svg: ^1.1.6
+  provider: ^6.0.5
+  fluttertoast: ^8.2.1
+  url_launcher: ^6.1.11
+  http: ^1.2.2
+  shared_preferences: ^2.0.15
+  flutter_secure_storage: ^8.0.0
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.19
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/pizza_name.svg
+    - assets/images/pizza_slice.svg
+    - assets/images/pizza_splash.svg
